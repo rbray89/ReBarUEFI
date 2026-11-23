@@ -18,10 +18,14 @@
   UefiBootServicesTableLib
   UefiRuntimeServicesTableLib
   UefiLib
+  DxeServicesTableLib
    
 [Protocols]
   gEfiPciRootBridgeIoProtocolGuid ## SOMETIMES_CONSUMES
   gEfiPciHostBridgeResourceAllocationProtocolGuid ## SOMETIMES_CONSUMES
+
+[Guids]
+  gEfiEventReadyToBootGuid ## SOMETIMES_CONSUMES
 
 [Depex]
   gEfiPciRootBridgeIoProtocolGuid

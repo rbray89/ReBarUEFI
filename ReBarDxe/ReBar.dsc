@@ -18,6 +18,7 @@
 	UefiApplicationEntryPoint|MdePkg/Library/UefiApplicationEntryPoint/UefiApplicationEntryPoint.inf
 	UefiBootServicesTableLib|MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib.inf
 	UefiRuntimeServicesTableLib|MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib.inf
+	DxeServicesTableLib|MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib.inf
 	PrintLib|MdePkg/Library/BasePrintLib/BasePrintLib.inf
 	DebugLib|MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
 	BaseLib|MdePkg/Library/BaseLib/BaseLib.inf
